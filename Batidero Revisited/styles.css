@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo&display=swap');
+html{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 10px;
+}
+
+:root{
+    --mango1: #FFC46B;
+}
+
+
+body{
+    background-color: var(--mango1);
+}
+section{
+    padding: 50px 0;
+}
+
+.container{
+    max-width: 1700px;
+    max-height: 1000px; 
+    margin: 0 auto;
+}
+

@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+     
+}
+.name{
+    text-align: center;
+    font-size: 40px;
+    line-height: 50%;
+
+}
+
+.name span{
+    color: red;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    line-height: 30%;
+    
+}
+
+.menu__wrapper .menu{
+    font-size: 60px;
+
+}
+
+.menu__wrapper .cont{
+    font-size: 50px;
+}
+.slogan h1{
+    font-size: 50px;
+    display: block;
+    margin-bottom: 15px;
+}
+.slogan  p {
+    font-family: 'cairo';
+    font-size: 35px;
+    letter-spacing: 0.1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    line-height: 80%;
+    display: block;
+    
+}
+.conocer{
+    margin-top: 45px;
+    margin-left: 350px;
+    
+}
+.conocer .btn{
+    margin-top: 10px;
+    font-family: 'cairo';
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 3.0rem;
+    padding: 13px 30px;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+.conocer .primary-btn{
+    color:white;
+    background-color: red;
+}
+.img__container_1{
+    width: 300px;
+    min-height: 125px;
+    object-fit: contain;
+    position: relative;
+    bottom: 500px;
+    left: 973px;
+    border: 5px solid red;
+    
+}
+.img__container_2{
+    width: 300px;
+    min-height: 125px;
+    object-fit: contain;
+    position: relative;
+    bottom: 500px;
+    left: 1000px;
+    border: 5px solid red;
+}
+.img__container_3{
+    width: 300px;
+    min-height: 125px;
+    object-fit: contain;
+    position: relative;
+    bottom: 250px;
+    left: 450px;
+    border: 5px solid red;
+    
+}
+
+#socials .container{
+ position: relative;
+ bottom: 300px;
+}
+#socials .social__media p{
+    font-weight: 500;
+	font-size: 50px;
+	letter-spacing: 0.1rem;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    display: block;
+    text-align: center;
+    
+}
+
+
+.social__icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
